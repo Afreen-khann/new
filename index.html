@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vidyavrdhaka College Fest</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Vidyavrdhaka College Fest</h1>
+        <h2>Where Fun Meets Innovation!</h2>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <img src="your-image.jpg" alt="College Fest" class="hero-image">
+        <h1>Welcome to Vidyavrdhaka College Fest!</h1>
+        <p>Get ready for an unforgettable experience of fun, learning, and excitement!</p>
+        <div id="countdown"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About the College Fest</h2>
+        <p>This is the annual college fest where students come together to celebrate and participate in various events. From sports to music, we have something for everyone!</p>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h2>Events</h2>
+        <div class="event-cards">
+            <div class="event-card">
+                <img src="music-concert.jpg" alt="Music Concert" class="event-image">
+                <h3>Music Concert</h3>
+            </div>
+            <div class="event-card">
+                <img src="sports-tournament.jpg" alt="Sports Tournament" class="event-image">
+                <h3>Sports Tournament</h3>
+            </div>
+            <div class="event-card">
+                <img src="workshops.jpg" alt="Workshops" class="event-image">
+                <h3>Workshops</h3>
+            </div>
+            <div class="event-card">
+                <img src="drama-performance.jpg" alt="Drama & Performances" class="event-image">
+                <h3>Drama & Performances</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <table>
+            <tr>
+                <th>Event</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Music Concert</td>
+                <td>10:00 AM</td>
+            </tr>
+            <tr>
+                <td>Sports Tournament</td>
+                <td>1:00 PM</td>
+            </tr>
+            <tr>
+                <td>Workshops</td>
+                <td>3:00 PM</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register">
+        <h2>Register for Events</h2>
+        <form action="#">
+            <label for="name"><i class="fas fa-user"></i> Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="event"><i class="fas fa-calendar-check"></i> Event:</label>
+            <select id="event" name="event" required>
+                <option value="music-concert">Music Concert</option>
+                <option value="sports-tournament">Sports Tournament</option>
+                <option value="workshops">Workshops</option>
+                <option value="drama">Drama & Performances</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="contact_name"><i class="fas fa-user"></i> Name:</label>
+            <input type="text" id="contact_name" name="contact_name" required>
+
+            <label for="contact_email"><i class="fas fa-envelope"></i> Email:</label>
+            <input type="email" id="contact_email" name="contact_email" required>
+
+            <label for="message"><i class="fas fa-comment-dots"></i> Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <img src="college-logo.png" alt="College Logo" class="footer-logo">
+        <p>&copy; 2025 Vidyavrdhaka College of Engineering. All rights reserved.</p>
+    </footer>
+
+    <script src="countdown.js"></script>
+</body>
+</html>
+
